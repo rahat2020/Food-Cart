@@ -1,0 +1,7 @@
+.header-container{
+    height:600px;
+    position:relative;
+    background-image: url('../../../img/bgtwo.jpg');
+    background-size: cover;
+    background-position: center;
+}
