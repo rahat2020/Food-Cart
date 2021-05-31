@@ -4,7 +4,7 @@ const Navbar = () => {
 
     return (
         <div className="">
-            <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <nav class="navbar navbar-expand-lg navbar-light ">
                 <div class="container-fluid">
                     <a class="navbar-brand text-white fw-bold" href="/"> Food<span className="ticketStyle">Mart</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" style={{ background: 'white' }}
@@ -20,16 +20,10 @@ const Navbar = () => {
                                     <a class="nav-link" style={{ color: 'aqua' }} aria-current="page" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white fw-bold" href="dashboard"> Dashboard</a>
+                                    <a class="nav-link text-white fw-bold" href="food"> Foods</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white fw-bold" href="login">login</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white fw-bold" href="about" >About us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white fw-bold" href="addService" >Add services</a>
+                                    <a class="nav-link text-white fw-bold" href="login">About us</a>
                                 </li>
                             </ul>
                         </div>

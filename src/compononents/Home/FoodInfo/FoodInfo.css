@@ -1,0 +1,45 @@
+.titleText{
+    
+    text-align: center;
+    padding-bottom: 60px;
+}
+.titleText p{
+
+    margin: auto;
+    font-size: 20px;
+    color: #019c8d;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.titleText p::after {
+
+    content: "";
+    width: 50px;
+    height: 34px;
+    background: linear-gradient(aqua, rgb(16, 13, 211));
+    position: absolute;
+    top: -30px;
+    left: 0;
+    z-index:-1;
+    transform: rotate(10deg);
+    border-top-left-radius: 62px;
+    border-bottom-right-radius: 55px;
+
+
+
+}
+.titleText h1{
+
+    font-size:35px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.titleText h1:hover{
+
+    color: #16bdac;
+}
+.info-container{
+    background-color: rgba(123, 133, 141, 0.384);
+}

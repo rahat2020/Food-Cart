@@ -5,22 +5,17 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './compononents/Home/Home/Home';
+
 function App() {
   return (
     <div className="App">
-   <Router>
-   <Switch>
+      <Router>
+        <Switch>
           <Route exact path="/">
-              <Home></Home>
-          </Route>
-          <Route path="/about">
-            
-          </Route>
-          <Route path="/dashboard">
-         
+            <Home></Home>
           </Route>
         </Switch>
-   </Router>
+      </Router>
     </div>
   );
 }

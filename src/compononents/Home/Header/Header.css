@@ -1,7 +1,7 @@
 .header-container{
     height:600px;
     position:relative;
-    background-image: url('../../../img/bgtwo.jpg');
+    background-image: linear-gradient(to left, rgba(122, 101, 101, 0.329), rgba(0, 0, 1, 0.767)),url('../../../img/bgone.jpg');
     background-size: cover;
     background-position: center;
 }
